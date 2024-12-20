@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End-of-Year Celebration Invitation</title>
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="End-of-Year Celebration Invitation" />
+    <meta property="og:description" content="Join us for a fun-filled End-of-Year Celebration hosted by UBA PLC DELTA 1 Branch. Don't miss out on an unforgettable evening!" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1607005520195-88c18a7d2229?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjEyOXwwfDF8c2VhY2h8MXx8cGVvcGxlJTIwcmFpc2luZyUyMHdpbmUlMjBnbGFzcyUyMGluJTIwdGV4dHx8fGVufDB8fDE2Mzc2OTQzOTI&ixlib=rb-1.2.1&q=80&w=1080" />
+    <meta property="og:url" content="https://www.example.com/invite" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="UBA PLC Event" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="End-of-Year Celebration Invitation" />
+    <meta name="twitter:description" content="Join us for a fun-filled End-of-Year Celebration hosted by UBA PLC DELTA 1 Branch. Don't miss out on an unforgettable evening!" />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1607005520195-88c18a7d2229?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjEyOXwwfDF8c2VhY2h8MXx8cGVvcGxlJTIwcmFpc2luZyUyMHdpbmUlMjBnbGFzcyUyMGluJTIwdGV4dHx8fGVufDB8fDE2Mzc2OTQzOTI&ixlib=rb-1.2.1&q=80&w=1080" />
+    <meta name="twitter:url" content="https://www.example.com/invite" />
+
+    <!-- Beautiful Fonts (Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #D32F2F; /* Red */
+            font-size: 48px;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        /* Title Decoration (Golden Sparkles under the title) */
+        h1::after {
+            content: '✨✨';
+            font-size: 36px;
+            color: #FFB300; /* Gold */
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 100%;
+            animation: sparkle 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes sparkle {
+            0% {
+                opacity: 0.6;
+                transform: translateX(-50%) scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(-50%) scale(1.2);
+            }
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #FFB300; /* Gold */
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+            margin: 20px 0;
+        }
+
+        .details {
+            background-color: #FFEB3B; /* Gold */
+            color: #C2185B; /* Red */
+            padding: 20px;
+            border-radius: 12px;
+            margin: 30px auto;
+            max-width: 600px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .details li {
+            margin: 12px 0;
+            font-weight: bold;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            background-color: #D32F2F; /* Red */
+            color: #fff;
+            padding: 18px 36px;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 50px;
+            font-size: 20px;
+            margin-top: 30px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .rsvp-button:hover {
+            background-color: #C2185B; /* Darker Red */
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .footer-text {
+            font-weight: bold;
+            color: #D32F2F; /* Red */
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .details {
+                padding: 15px;
+                font-size: 16px;
+            }
+
+            .rsvp-button {
+                padding: 15px 30px;
+                font-size: 18px;
+            }
+
+            footer {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .details {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .rsvp-button {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>🎉 You're Invited to Our End-of-Year Celebration! 🎉</h1>
+    <h2>Hosted by UBA PLC DELTA 1 Branch</h2>
+    <p>As we bid farewell to 2024, let's come together for an evening of celebration, reflection, and good company. We look forward to sharing this special moment with you!</p>
+    
+    <div class="details">
+        <ul>
+            <li><strong>Date:</strong> 29th Dec 2024 </li>
+            <li><strong>Time:</strong> 2pm </li>
+            <li><strong>Venue:</strong> Wellington Hotel </li>
+            <li><strong>Dress Code:</strong> Blue Jeans & White </li>
+        </ul>
+    </div>
+
+    <p>Please confirm your attendance by clicking the button below:</p>
+    <a href="https://forms.gle/YourGoogleFormLink" class="rsvp-button">Confirm Your Attendance</a>
+    
+    <footer>
+        <p>We can't wait to celebrate with you!</p>
+        <p><span class="footer-text">Kindly RSVP by [RSVP Deadline].</span></p>
+    </footer>
+
+</body>
+</html>
